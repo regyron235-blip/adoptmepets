@@ -1,5 +1,5 @@
 import { newsItems } from '../data/news';
-import NewsCard from './NewsCard';
+import { NewsCard } from './NewsCard';
 
 export default function NewsSection() {
   return (

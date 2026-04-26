@@ -1,11 +1,13 @@
+import React from 'react';
 import { NewsItem } from '../data/news';
 import { ExternalLink } from 'lucide-react';
 
 interface NewsCardProps {
+  key?: string | number;
   item: NewsItem;
 }
 
-export default function NewsCard({ item }: NewsCardProps) {
+export const NewsCard: React.FC<NewsCardProps> = ({ item }) => {
   return (
     <div className="news-card group flex flex-col md:flex-row h-full md:items-center">
       <div className="w-full md:w-1/3 aspect-video md:aspect-auto md:h-full overflow-hidden">

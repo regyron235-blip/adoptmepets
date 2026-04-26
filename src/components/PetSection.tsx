@@ -1,5 +1,5 @@
 import { legendaryPets } from '../data/pets';
-import PetCard from './PetCard';
+import { PetCard } from './PetCard';
 
 export default function PetSection() {
   return (

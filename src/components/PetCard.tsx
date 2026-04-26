@@ -1,12 +1,14 @@
+import React from 'react';
 import { Pet } from '../data/pets';
 import { motion } from 'motion/react';
 
 interface PetCardProps {
+  key?: string | number;
   pet: Pet;
   index: number;
 }
 
-export default function PetCard({ pet, index }: PetCardProps) {
+export const PetCard: React.FC<PetCardProps> = ({ pet, index }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}

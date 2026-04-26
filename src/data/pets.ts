@@ -335,5 +335,82 @@ export const legendaryPets: Pet[] = [
     image: 'https://images.unsplash.com/photo-1563968743333-044cef800494?w=400&h=400&fit=crop',
     rarity: 'Legendary',
     origin: 'Desert Egg'
+  },
+  {
+    id: 'blue-betta-fish',
+    name: 'Blue Betta Fish',
+    image: 'https://images.unsplash.com/photo-1522060290453-34ca0abc219d?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Singularity Event'
+  },
+  {
+    id: 'strawberry-shortcake-bat-dragon',
+    name: 'SSB Dragon',
+    image: 'https://images.unsplash.com/photo-1549465220-1d8c9d9c6703?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Winter 2022'
+  },
+  {
+    id: 'naga-dragon',
+    name: 'Naga Dragon',
+    image: 'https://images.unsplash.com/photo-1577491235122-8302cc37a1be?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Southeast Asia Egg'
+  },
+  {
+    id: 'cuddly-candle',
+    name: 'Cuddly Candle',
+    image: 'https://images.unsplash.com/photo-1541480605-2244bb777f94?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Sky Castle'
+  },
+  {
+    id: 'owlbear',
+    name: 'Owlbear',
+    image: 'https://images.unsplash.com/photo-1543549732-28e4f001230e?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Danger Egg'
+  },
+  {
+    id: 'spinosaurus',
+    name: 'Spinosaurus',
+    image: 'https://images.unsplash.com/photo-1525877442183-58f3bc996ce3?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Danger Egg'
+  },
+  {
+    id: 'billy-goat',
+    name: 'Billy Goat',
+    image: 'https://images.unsplash.com/photo-1524388676161-0a91ca2fa73e?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Urban Egg'
+  },
+  {
+    id: 'gargoyle',
+    name: 'Gargoyle',
+    image: 'https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Urban Egg'
+  },
+  {
+    id: 'werewolf',
+    name: 'Werewolf',
+    image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Halloween 2023'
+  },
+  {
+    id: 'fleur-de-ice',
+    name: 'Fleur De Ice',
+    image: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Winter 2023'
+  },
+  {
+    id: 'glacier-kitsune',
+    name: 'Glacier Kitsune',
+    image: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Winter 2023'
   }
 ];
