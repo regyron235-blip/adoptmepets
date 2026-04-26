@@ -244,5 +244,96 @@ export const legendaryPets: Pet[] = [
     image: 'https://images.unsplash.com/photo-1550993295-659fe7d82726?w=400&h=400&fit=crop',
     rarity: 'Legendary',
     origin: 'Robux'
+  },
+  {
+    id: 'mecha-meow',
+    name: 'Mecha Meow',
+    image: 'https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Robux'
+  },
+  {
+    id: 'lavender-dragon',
+    name: 'Lavender Dragon',
+    image: 'https://images.unsplash.com/photo-1577491235122-8302cc37a1be?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'DJ Gamepass Change'
+  },
+  {
+    id: 'dancing-dragon',
+    name: 'Dancing Dragon',
+    image: 'https://images.unsplash.com/photo-1534067783941-51c9c23ecafd?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Lunar New Year 2022'
+  },
+  {
+    id: 'sugar-glider',
+    name: 'Sugar Glider',
+    image: 'https://images.unsplash.com/photo-1548761208-b7896ad6c8c5?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Robux'
+  },
+  {
+    id: 'winged-tiger',
+    name: 'Winged Tiger',
+    image: 'https://images.unsplash.com/photo-1508061461508-cb18c242f556?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Lunar New Year 2023'
+  },
+  {
+    id: 'vampire-dragon',
+    name: 'Vampire Dragon',
+    image: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Halloween 2023'
+  },
+  {
+    id: 'rainbow-dragon',
+    name: 'Rainbow Dragon',
+    image: 'https://images.unsplash.com/photo-1531315630201-bb152f5927ad?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Lunar New Year 2024'
+  },
+  {
+    id: 'glormy-hound',
+    name: 'Glormy Hound',
+    image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Galactic Event'
+  },
+  {
+    id: 'kraken',
+    name: 'Kraken',
+    image: 'https://images.unsplash.com/photo-1551244072-5d12893278ab?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Ocean Event'
+  },
+  {
+    id: 'bald-eagle',
+    name: 'Bald Eagle',
+    image: 'https://images.unsplash.com/photo-1470116892389-0de5d9770b2c?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'American Event'
+  },
+  {
+    id: 'balloon-unicorn',
+    name: 'Balloon Unicorn',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Special Event'
+  },
+  {
+    id: 'midnight-dragon',
+    name: 'Midnight Dragon',
+    image: 'https://images.unsplash.com/photo-1535262412227-85541e910204?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Lunar New Year 2024'
+  },
+  {
+    id: 'criosphinx',
+    name: 'Criosphinx',
+    image: 'https://images.unsplash.com/photo-1563968743333-044cef800494?w=400&h=400&fit=crop',
+    rarity: 'Legendary',
+    origin: 'Desert Egg'
   }
 ];
