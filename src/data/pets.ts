@@ -10,84 +10,84 @@ export const legendaryPets: Pet[] = [
   {
     id: 'bat-dragon',
     name: 'Bat Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fbat-dragon.png&w=1200&q=75',
+    image: '/pets/bat_dragon.png',
     rarity: 'Legendary',
     origin: 'Halloween 2019'
   },
   {
     id: 'shadow-dragon',
     name: 'Shadow Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fshadow-dragon.png&w=1200&q=75',
+    image: '/pets/shadow_dragon.png',
     rarity: 'Legendary',
     origin: 'Halloween 2019'
   },
   {
     id: 'frost-dragon',
     name: 'Frost Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Ffrost-dragon.png&w=1200&q=75',
+    image: '/pets/frost_dragon.png',
     rarity: 'Legendary',
     origin: 'Christmas 2019'
   },
   {
     id: 'giraffe',
     name: 'Giraffe',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fgiraffe.png&w=1200&q=75',
+    image: '/pets/giraffe.png',
     rarity: 'Legendary',
     origin: 'Safari Egg'
   },
   {
     id: 'owl',
     name: 'Owl',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fowl.png&w=1200&q=75',
+    image: '/pets/owl.png',
     rarity: 'Legendary',
     origin: 'Farm Egg'
   },
   {
     id: 'parrot',
     name: 'Parrot',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fparrot.png&w=1200&q=75',
+    image: '/pets/parrot.png',
     rarity: 'Legendary',
     origin: 'Jungle Egg'
   },
   {
     id: 'crow',
     name: 'Crow',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fcrow.png&w=1200&q=75',
+    image: '/pets/crow.png',
     rarity: 'Legendary',
     origin: 'Farm Egg'
   },
   {
     id: 'evil-unicorn',
     name: 'Evil Unicorn',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fevil-unicorn.png&w=1200&q=75',
+    image: '/pets/evil_unicorn.png',
     rarity: 'Legendary',
     origin: 'Halloween 2019'
   },
   {
     id: 'arctic-reindeer',
     name: 'Arctic Reindeer',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Farctic-reindeer.png&w=1200&q=75',
+    image: '/pets/arctic_reindeer.png',
     rarity: 'Legendary',
     origin: 'Christmas 2019'
   },
   {
     id: 'monkey-king',
     name: 'Monkey King',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fmonkey-king.png&w=1200&q=75',
+    image: '/pets/monkey_king.png',
     rarity: 'Legendary',
     origin: 'Monkey Fairground'
   },
   {
     id: 'kangaroo',
     name: 'Kangaroo',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fkangaroo.png&w=1200&q=75',
+    image: '/pets/kangaroo.png',
     rarity: 'Legendary',
     origin: 'Aussie Egg'
   },
   {
     id: 'turtle',
     name: 'Turtle',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fturtle.png&w=1200&q=75',
+    image: '/pets/turtle.png',
     rarity: 'Legendary',
     origin: 'Aussie Egg'
   },
@@ -108,42 +108,42 @@ export const legendaryPets: Pet[] = [
   {
     id: 'kitsune',
     name: 'Kitsune',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fkitsune.png&w=1200&q=75',
+    image: '/pets%202/kitsune.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
   {
     id: 'phoenix',
     name: 'Phoenix',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fphoenix.png&w=1200&q=75',
+    image: '/pets%202/phoenix.png',
     rarity: 'Legendary',
     origin: 'Mythic Egg'
   },
   {
     id: 'goldhorn',
     name: 'Goldhorn',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fgoldhorn.png&w=1200&q=75',
+    image: '/pets%202/goldhorn.png',
     rarity: 'Legendary',
     origin: 'Mythic Egg'
   },
   {
     id: 'alicorn',
     name: 'Alicorn',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Falicorn.png&w=1200&q=75',
+    image: '/pets.3/basic_egg_2022_alicorn.png',
     rarity: 'Legendary',
     origin: 'Royal Egg'
   },
   {
     id: 'ancient-dragon',
     name: 'Ancient Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fancient-dragon.png&w=1200&q=75',
+    image: '/pets.3/basic_egg_2022_ancient_dragon.png',
     rarity: 'Legendary',
     origin: 'Royal Egg'
   },
   {
     id: 'albino-monkey',
     name: 'Albino Monkey',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Falbino-monkey.png&w=1200&q=75',
+    image: '/pets/albino_monkey.png',
     rarity: 'Legendary',
     origin: 'Monkey Box'
   },
@@ -157,7 +157,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'cerberus',
     name: 'Cerberus',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fcerberus.png&w=1200&q=75',
+    image: '/pets%202/cerberus.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
@@ -171,14 +171,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'dodo',
     name: 'Dodo',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fdodo.png&w=1200&q=75',
+    image: '/pets%202/dodo.png',
     rarity: 'Legendary',
     origin: 'Fossil Egg'
   },
   {
     id: 'frost-fury',
     name: 'Frost Fury',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Ffrost-fury.png&w=1200&q=75',
+    image: '/pets/frost_fury.png',
     rarity: 'Legendary',
     origin: 'Winter 2020'
   },
@@ -192,7 +192,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'guardian-lion',
     name: 'Guardian Lion',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fguardian-lion.png&w=1200&q=75',
+    image: '/pets%202/guardian_lion.png',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2021'
   },
@@ -206,14 +206,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'lava-dragon',
     name: 'Lava Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Flava-dragon.png&w=1200&q=75',
+    image: '/pets.3/halloween_2022_lava_dragon.png',
     rarity: 'Legendary',
     origin: 'Halloween 2022'
   },
   {
     id: 'nessie',
     name: 'Nessie',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fnessie.png&w=1200&q=75',
+    image: '/pets%202/scottish_2023_nessie.png',
     rarity: 'Legendary',
     origin: 'Highland Event'
   },
@@ -227,21 +227,21 @@ export const legendaryPets: Pet[] = [
   {
     id: 'strawberry-shortcake-bat-dragon',
     name: 'Strawberry Shortcake Bat Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fstrawberry-shortcake-bat-dragon.png&w=1200&q=75',
+    image: '/pets.3/winter_2022_strawberry_shortcake_bat_dragon.png',
     rarity: 'Legendary',
     origin: 'Winter 2022'
   },
   {
     id: 't-rex',
     name: 'T-Rex',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Ft-rex.png&w=1200&q=75',
+    image: '/pets%202/trex.png',
     rarity: 'Legendary',
     origin: 'Fossil Egg'
   },
   {
     id: 'winged-horse',
     name: 'Winged Horse',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fwinged-horse.png&w=1200&q=75',
+    image: '/pets.3/random_pets_2022_winged_horse.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
@@ -262,14 +262,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'dancing-dragon',
     name: 'Dancing Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fdancing-dragon.png&w=1200&q=75',
+    image: '/pets.3/lny_2022_dragon.png',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2022'
   },
   {
     id: 'sugar-glider',
     name: 'Sugar Glider',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fsugar-glider.png&w=1200&q=75',
+    image: '/pets%202/easter_2022_sugar_glider.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
@@ -283,7 +283,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'vampire-dragon',
     name: 'Vampire Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fvampire-dragon.png&w=1200&q=75',
+    image: '/pets%202/halloween_2023_vampire_dragon.png',
     rarity: 'Legendary',
     origin: 'Halloween 2023'
   },
@@ -318,14 +318,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'balloon-unicorn',
     name: 'Balloon Unicorn',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fballoon-unicorn.png&w=1200&q=75',
+    image: '/pets%202/summerfest_2024_balloon_unicorn.png',
     rarity: 'Legendary',
     origin: 'Special Event'
   },
   {
     id: 'midnight-dragon',
     name: 'Midnight Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fmidnight-dragon.png&w=1200&q=75',
+    image: '/pets%202/lunar_2024_midnight_dragon.png',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2024'
   },
@@ -346,7 +346,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'naga-dragon',
     name: 'Naga Dragon',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fnaga-dragon.png&w=1200&q=75',
+    image: '/pets.3/seasia_2023_naga_dragon.png',
     rarity: 'Legendary',
     origin: 'Southeast Asia Egg'
   },
@@ -374,14 +374,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'billy-goat',
     name: 'Billy Goat',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fbilly-goat.png&w=1200&q=75',
+    image: '/pets.3/urban_2023_billy_goat.png',
     rarity: 'Legendary',
     origin: 'Urban Egg'
   },
   {
     id: 'gargoyle',
     name: 'Gargoyle',
-    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fgargoyle.png&w=1200&q=75',
+    image: '/pets%202/urban_2023_gargoyle.png',
     rarity: 'Legendary',
     origin: 'Urban Egg'
   },

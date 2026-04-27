@@ -54,9 +54,14 @@ function Hero() {
             <a href="#pets" className="btn-primary">
               Explore Pets
             </a>
-            <button className="px-8 py-3 rounded-full border-4 border-adopt-blue text-adopt-blue font-display font-bold hover:bg-adopt-blue hover:text-white transition-all">
-              Watch Trailer
-            </button>
+            <a 
+              href="https://regyron235-blip.github.io/adoptme-elite-shops/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-full border-4 border-adopt-blue text-adopt-blue font-display font-bold hover:bg-adopt-blue hover:text-white transition-all"
+            >
+              Official Sait Elite Stor
+            </a>
           </motion.div>
         </div>
         
@@ -68,7 +73,7 @@ function Hero() {
         >
           <div className="relative z-10 rounded-[3rem] overflow-hidden border-[12px] border-white shadow-2xl rotate-3 scale-110">
             <img 
-              src="https://images.unsplash.com/photo-1612170153139-6f881ff067e0?w=800&h=800&fit=crop" 
+              src="/pets/shadow_dragon.png" 
               alt="Adopt Me Pets"
               className="w-full h-full object-cover"
             />

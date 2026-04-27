@@ -34,13 +34,15 @@ export default function Navbar() {
             <Newspaper size={20} />
             <span className="md:inline hidden">News</span>
           </a>
-          <button 
-            onClick={triggerRocket}
+          <a 
+            href="https://regyron235-blip.github.io/adoptme-elite-shops/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 bg-adopt-purple text-white px-4 py-2 rounded-full font-display font-bold hover:scale-105 active:scale-95 transition-transform"
           >
             <ShoppingBag size={20} />
-            Elite Store
-          </button>
+            Official Sait Elite Stor
+          </a>
         </div>
       </nav>
       
