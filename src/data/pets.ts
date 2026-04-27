@@ -178,49 +178,49 @@ export const legendaryPets: Pet[] = [
   {
     id: 'frost-fury',
     name: 'Frost Fury',
-    image: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Ffrost-fury.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Winter 2020'
   },
   {
     id: 'golden-penguin',
     name: 'Golden Penguin',
-    image: 'https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fgolden-penguin.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Golden Goldfish'
   },
   {
     id: 'guardian-lion',
     name: 'Guardian Lion',
-    image: 'https://images.unsplash.com/photo-1544922112-986c7501a91e?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fguardian-lion.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2021'
   },
   {
     id: 'ice-golem',
     name: 'Ice Golem',
-    image: 'https://images.unsplash.com/photo-1414541944151-2f3ec1cfd8f5?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fice-golem.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Winter 2021'
   },
   {
     id: 'lava-dragon',
     name: 'Lava Dragon',
-    image: 'https://images.unsplash.com/photo-1621252179027-94459d278660?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Flava-dragon.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Halloween 2022'
   },
   {
     id: 'nessie',
     name: 'Nessie',
-    image: 'https://images.unsplash.com/photo-1549465220-1d8c9d9c6703?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fnessie.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Highland Event'
   },
   {
     id: 'squid',
     name: 'Squid',
-    image: 'https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fsquid.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'RGB Box'
   },
@@ -234,63 +234,63 @@ export const legendaryPets: Pet[] = [
   {
     id: 't-rex',
     name: 'T-Rex',
-    image: 'https://images.unsplash.com/photo-1525877442183-58f3bc996ce3?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Ft-rex.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Fossil Egg'
   },
   {
     id: 'winged-horse',
     name: 'Winged Horse',
-    image: 'https://images.unsplash.com/photo-1550993295-659fe7d82726?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fwinged-horse.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Robux'
   },
   {
     id: 'mecha-meow',
     name: 'Mecha Meow',
-    image: 'https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fmecha-meow.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Robux'
   },
   {
     id: 'lavender-dragon',
     name: 'Lavender Dragon',
-    image: 'https://images.unsplash.com/photo-1577491235122-8302cc37a1be?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Flavender-dragon.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'DJ Gamepass Change'
   },
   {
     id: 'dancing-dragon',
     name: 'Dancing Dragon',
-    image: 'https://images.unsplash.com/photo-1534067783941-51c9c23ecafd?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fdancing-dragon.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2022'
   },
   {
     id: 'sugar-glider',
     name: 'Sugar Glider',
-    image: 'https://images.unsplash.com/photo-1548761208-b7896ad6c8c5?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fsugar-glider.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Robux'
   },
   {
     id: 'winged-tiger',
     name: 'Winged Tiger',
-    image: 'https://images.unsplash.com/photo-1508061461508-cb18c242f556?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fwinged-tiger.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2023'
   },
   {
     id: 'vampire-dragon',
     name: 'Vampire Dragon',
-    image: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fvampire-dragon.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Halloween 2023'
   },
   {
     id: 'rainbow-dragon',
     name: 'Rainbow Dragon',
-    image: 'https://images.unsplash.com/photo-1531315630201-bb152f5927ad?w=400&h=400&fit=crop',
+    image: 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Frainbow-dragon.png&w=1200&q=75',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2024'
   },
