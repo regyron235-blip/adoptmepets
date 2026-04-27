@@ -1,13 +1,19 @@
-import { legendaryPets } from '../data/pets';
+import { useState } from 'react';
+import { legendaryPets, Pet } from '../data/pets';
 import { PetCard } from './PetCard';
+import { StatsModal } from './StatsModal';
+import { useLanguage } from './LanguageContext';
 
 export default function PetSection() {
+  const [selectedPet, setSelectedPet] = useState<Pet | null>(null);
+  const { t } = useLanguage();
+
   return (
     <section id="pets" className="py-16 px-6 md:px-12 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
         <div>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-adopt-pink mb-4">
-            Legendary Pets
+            {t('pets')}
           </h2>
           <p className="text-gray-600 max-w-xl font-medium">
             Explore all the rarest and most legendary pets in Adopt Me! From ancient dragons to the most sought-after holiday exclusives.
@@ -22,9 +28,19 @@ export default function PetSection() {
 
       <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6">
         {legendaryPets.map((pet, index) => (
-          <PetCard key={pet.id} pet={pet} index={index} />
+          <PetCard 
+            key={pet.id} 
+            pet={pet} 
+            index={index} 
+            onShowStats={() => setSelectedPet(pet)}
+          />
         ))}
       </div>
+
+      <StatsModal 
+        pet={selectedPet} 
+        onClose={() => setSelectedPet(null)} 
+      />
     </section>
   );
 }

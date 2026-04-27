@@ -1,13 +1,16 @@
 import { newsItems } from '../data/news';
 import { NewsCard } from './NewsCard';
+import { useLanguage } from './LanguageContext';
 
 export default function NewsSection() {
+  const { t } = useLanguage();
+
   return (
     <section id="news" className="py-16 bg-adopt-blue/5 border-y-4 border-adopt-blue/20">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-adopt-blue mb-4">
-            Adopt Me! News
+            {t('news')}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto font-medium">
             Stay up to date with the latest patches, events, and new pet releases from the official Adopt Me team.

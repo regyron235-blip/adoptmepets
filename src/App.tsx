@@ -13,8 +13,10 @@ import PetSection from './components/PetSection';
 import NewsSection from './components/NewsSection';
 import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
+import { LanguageProvider, useLanguage } from './components/LanguageContext';
 
 function Hero() {
+  const { t } = useLanguage();
   return (
     <header className="relative py-20 px-6 md:px-12 overflow-hidden bg-white">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-adopt-blue/10 skew-x-[-20deg] origin-top-right -z-10" />
@@ -52,7 +54,7 @@ function Hero() {
             className="flex flex-wrap gap-4 justify-center md:justify-start"
           >
             <a href="#pets" className="btn-primary">
-              Explore Pets
+              {t('pets')}
             </a>
             <a 
               href="https://regyron235-blip.github.io/adoptme-elite-shops/index.html"
@@ -60,7 +62,7 @@ function Hero() {
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-full border-4 border-adopt-blue text-adopt-blue font-display font-bold hover:bg-adopt-blue hover:text-white transition-all"
             >
-              Official Sait Elite Stor
+              {t('officialStore')}
             </a>
           </motion.div>
         </div>
@@ -76,6 +78,9 @@ function Hero() {
               src="/pets/shadow_dragon.png" 
               alt="Adopt Me Pets"
               className="w-full h-full object-cover"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = 'https://www.playadopt.me/_next/image?url=%2Fstatic%2Fimages%2Fpets%2Fshadow-dragon.png&w=1200&q=75';
+              }}
             />
           </div>
           <div className="absolute -top-10 -left-10 w-32 h-32 bg-adopt-pink rounded-full blur-3xl opacity-50" />
@@ -88,39 +93,41 @@ function Hero() {
 
 export default function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <main>
-        <Hero />
-        <NewsSection />
-        <PetSection />
-      </main>
-      
-      <footer className="bg-gray-900 py-12 px-6 text-white text-center">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <div className="bg-adopt-pink p-2 rounded-xl">
-              <Star size={24} fill="white" />
+    <LanguageProvider>
+      <div className="min-h-screen">
+        <Navbar />
+        <main>
+          <Hero />
+          <NewsSection />
+          <PetSection />
+        </main>
+        
+        <footer className="bg-gray-900 py-12 px-6 text-white text-center">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center justify-center gap-2 mb-6">
+              <div className="bg-adopt-pink p-2 rounded-xl">
+                <Star size={24} fill="white" />
+              </div>
+              <span className="font-display text-2xl font-bold tracking-tight">
+                ADOPT ME! WIKI
+              </span>
             </div>
-            <span className="font-display text-2xl font-bold tracking-tight">
-              ADOPT ME! WIKI
-            </span>
+            <p className="text-gray-400 mb-8 max-w-lg mx-auto">
+              This is a fan-made project and is not affiliated with Uplift Games or Roblox. 
+              All game assets are property of their respective owners.
+            </p>
+            <div className="flex justify-center gap-6 text-sm font-semibold text-gray-500">
+              <a href="#" className="hover:text-white">Privacy Policy</a>
+              <a href="#" className="hover:text-white">Terms of Use</a>
+              <a href="#" className="hover:text-white">Contact Us</a>
+            </div>
+            <div className="mt-8 pt-8 border-t border-gray-800 text-gray-600 text-xs">
+              &copy; 2026 Adopt Me! Legendary Wiki. Building your dream pet collection.
+            </div>
           </div>
-          <p className="text-gray-400 mb-8 max-w-lg mx-auto">
-            This is a fan-made project and is not affiliated with Uplift Games or Roblox. 
-            All game assets are property of their respective owners.
-          </p>
-          <div className="flex justify-center gap-6 text-sm font-semibold text-gray-500">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms of Use</a>
-            <a href="#" className="hover:text-white">Contact Us</a>
-          </div>
-          <div className="mt-8 pt-8 border-t border-gray-800 text-gray-600 text-xs">
-            &copy; 2026 Adopt Me! Legendary Wiki. Building your dream pet collection.
-          </div>
-        </div>
-      </footer>
-    </div>
+        </footer>
+      </div>
+    </LanguageProvider>
   );
 }
 

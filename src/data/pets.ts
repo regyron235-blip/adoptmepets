@@ -4,29 +4,39 @@ export interface Pet {
   image: string;
   rarity: 'Legendary';
   origin?: string;
+  stats?: {
+    fly: boolean;
+    ride: boolean;
+    neon: boolean;
+    mega: boolean;
+    value: number; // 1-100 scale or similar
+  };
 }
 
 export const legendaryPets: Pet[] = [
   {
     id: 'bat-dragon',
     name: 'Bat Dragon',
-    image: '/pets/bat_dragon.png',
+    image: 'pets/bat_dragon.png',
     rarity: 'Legendary',
-    origin: 'Halloween 2019'
+    origin: 'Halloween 2019',
+    stats: { fly: true, ride: true, neon: true, mega: true, value: 98 }
   },
   {
     id: 'shadow-dragon',
     name: 'Shadow Dragon',
-    image: '/pets/shadow_dragon.png',
+    image: 'pets/shadow_dragon.png',
     rarity: 'Legendary',
-    origin: 'Halloween 2019'
+    origin: 'Halloween 2019',
+    stats: { fly: true, ride: true, neon: true, mega: true, value: 100 }
   },
   {
     id: 'frost-dragon',
     name: 'Frost Dragon',
-    image: '/pets/frost_dragon.png',
+    image: 'pets/frost_dragon.png',
     rarity: 'Legendary',
-    origin: 'Christmas 2019'
+    origin: 'Christmas 2019',
+    stats: { fly: true, ride: true, neon: true, mega: true, value: 92 }
   },
   {
     id: 'giraffe',
@@ -87,7 +97,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'turtle',
     name: 'Turtle',
-    image: '/pets/turtle.png',
+    image: 'pets/turtle.png',
     rarity: 'Legendary',
     origin: 'Aussie Egg'
   },
@@ -108,42 +118,42 @@ export const legendaryPets: Pet[] = [
   {
     id: 'kitsune',
     name: 'Kitsune',
-    image: '/pets%202/kitsune.png',
+    image: 'pets 2/kitsune.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
   {
     id: 'phoenix',
     name: 'Phoenix',
-    image: '/pets%202/phoenix.png',
+    image: 'pets 2/phoenix.png',
     rarity: 'Legendary',
     origin: 'Mythic Egg'
   },
   {
     id: 'goldhorn',
     name: 'Goldhorn',
-    image: '/pets%202/goldhorn.png',
+    image: 'pets 2/goldhorn.png',
     rarity: 'Legendary',
     origin: 'Mythic Egg'
   },
   {
     id: 'alicorn',
     name: 'Alicorn',
-    image: '/pets.3/basic_egg_2022_alicorn.png',
+    image: 'pets.3/basic_egg_2022_alicorn.png',
     rarity: 'Legendary',
     origin: 'Royal Egg'
   },
   {
     id: 'ancient-dragon',
     name: 'Ancient Dragon',
-    image: '/pets.3/basic_egg_2022_ancient_dragon.png',
+    image: 'pets.3/basic_egg_2022_ancient_dragon.png',
     rarity: 'Legendary',
     origin: 'Royal Egg'
   },
   {
     id: 'albino-monkey',
     name: 'Albino Monkey',
-    image: '/pets/albino_monkey.png',
+    image: 'pets/albino_monkey.png',
     rarity: 'Legendary',
     origin: 'Monkey Box'
   },
@@ -157,7 +167,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'cerberus',
     name: 'Cerberus',
-    image: '/pets%202/cerberus.png',
+    image: 'pets 2/cerberus.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
@@ -171,14 +181,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'dodo',
     name: 'Dodo',
-    image: '/pets%202/dodo.png',
+    image: 'pets 2/dodo.png',
     rarity: 'Legendary',
     origin: 'Fossil Egg'
   },
   {
     id: 'frost-fury',
     name: 'Frost Fury',
-    image: '/pets/frost_fury.png',
+    image: 'pets/frost_fury.png',
     rarity: 'Legendary',
     origin: 'Winter 2020'
   },
@@ -192,9 +202,10 @@ export const legendaryPets: Pet[] = [
   {
     id: 'guardian-lion',
     name: 'Guardian Lion',
-    image: '/pets%202/guardian_lion.png',
+    image: 'pets 2/guardian_lion.png',
     rarity: 'Legendary',
-    origin: 'Lunar New Year 2021'
+    origin: 'Lunar New Year 2021',
+    stats: { fly: true, ride: true, neon: true, mega: true, value: 45 }
   },
   {
     id: 'ice-golem',
@@ -206,14 +217,15 @@ export const legendaryPets: Pet[] = [
   {
     id: 'lava-dragon',
     name: 'Lava Dragon',
-    image: '/pets.3/halloween_2022_lava_dragon.png',
+    image: 'pets.3/halloween_2022_lava_dragon.png',
     rarity: 'Legendary',
-    origin: 'Halloween 2022'
+    origin: 'Halloween 2022',
+    stats: { fly: true, ride: true, neon: true, mega: true, value: 65 }
   },
   {
     id: 'nessie',
     name: 'Nessie',
-    image: '/pets%202/scottish_2023_nessie.png',
+    image: 'pets 2/scottish_2023_nessie.png',
     rarity: 'Legendary',
     origin: 'Highland Event'
   },
@@ -227,21 +239,21 @@ export const legendaryPets: Pet[] = [
   {
     id: 'strawberry-shortcake-bat-dragon',
     name: 'Strawberry Shortcake Bat Dragon',
-    image: '/pets.3/winter_2022_strawberry_shortcake_bat_dragon.png',
+    image: 'pets.3/winter_2022_strawberry_shortcake_bat_dragon.png',
     rarity: 'Legendary',
     origin: 'Winter 2022'
   },
   {
     id: 't-rex',
     name: 'T-Rex',
-    image: '/pets%202/trex.png',
+    image: 'pets 2/trex.png',
     rarity: 'Legendary',
     origin: 'Fossil Egg'
   },
   {
     id: 'winged-horse',
     name: 'Winged Horse',
-    image: '/pets.3/random_pets_2022_winged_horse.png',
+    image: 'pets.3/random_pets_2022_winged_horse.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
@@ -262,14 +274,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'dancing-dragon',
     name: 'Dancing Dragon',
-    image: '/pets.3/lny_2022_dragon.png',
+    image: 'pets.3/lny_2022_dragon.png',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2022'
   },
   {
     id: 'sugar-glider',
     name: 'Sugar Glider',
-    image: '/pets%202/easter_2022_sugar_glider.png',
+    image: 'pets 2/easter_2022_sugar_glider.png',
     rarity: 'Legendary',
     origin: 'Robux'
   },
@@ -283,7 +295,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'vampire-dragon',
     name: 'Vampire Dragon',
-    image: '/pets%202/halloween_2023_vampire_dragon.png',
+    image: 'pets 2/halloween_2023_vampire_dragon.png',
     rarity: 'Legendary',
     origin: 'Halloween 2023'
   },
@@ -318,14 +330,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'balloon-unicorn',
     name: 'Balloon Unicorn',
-    image: '/pets%202/summerfest_2024_balloon_unicorn.png',
+    image: 'pets 2/summerfest_2024_balloon_unicorn.png',
     rarity: 'Legendary',
     origin: 'Special Event'
   },
   {
     id: 'midnight-dragon',
     name: 'Midnight Dragon',
-    image: '/pets%202/lunar_2024_midnight_dragon.png',
+    image: 'pets 2/lunar_2024_midnight_dragon.png',
     rarity: 'Legendary',
     origin: 'Lunar New Year 2024'
   },
@@ -346,7 +358,7 @@ export const legendaryPets: Pet[] = [
   {
     id: 'naga-dragon',
     name: 'Naga Dragon',
-    image: '/pets.3/seasia_2023_naga_dragon.png',
+    image: 'pets.3/seasia_2023_naga_dragon.png',
     rarity: 'Legendary',
     origin: 'Southeast Asia Egg'
   },
@@ -374,14 +386,14 @@ export const legendaryPets: Pet[] = [
   {
     id: 'billy-goat',
     name: 'Billy Goat',
-    image: '/pets.3/urban_2023_billy_goat.png',
+    image: 'pets.3/urban_2023_billy_goat.png',
     rarity: 'Legendary',
     origin: 'Urban Egg'
   },
   {
     id: 'gargoyle',
     name: 'Gargoyle',
-    image: '/pets%202/urban_2023_gargoyle.png',
+    image: 'pets 2/urban_2023_gargoyle.png',
     rarity: 'Legendary',
     origin: 'Urban Egg'
   },
