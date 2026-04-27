@@ -2,6 +2,7 @@ import React from 'react';
 import { Pet } from '../data/pets';
 import { motion } from 'motion/react';
 import { useLanguage } from './LanguageContext';
+import { getImageUrl } from '../data/utils';
 
 interface PetCardProps {
   key?: string | number;
@@ -23,7 +24,7 @@ export const PetCard: React.FC<PetCardProps> = ({ pet, index, onShowStats }) => 
     >
       <div className="relative w-full aspect-square overflow-hidden rounded-2xl bg-gray-100">
         <img 
-          src={pet.image} 
+          src={getImageUrl(pet.image)} 
           alt={pet.name}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           onError={(e) => {

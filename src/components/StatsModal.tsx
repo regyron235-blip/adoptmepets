@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, Wind, Music, Sparkles, Trophy, Star } from 'lucide-react';
 import { Pet } from '../data/pets';
 import { useLanguage } from './LanguageContext';
+import { getImageUrl } from '../data/utils';
 
 interface StatsModalProps {
   pet: Pet | null;
@@ -52,7 +53,7 @@ export const StatsModal: React.FC<StatsModalProps> = ({ pet, onClose }) => {
               <div className="flex flex-col items-center mb-8">
                 <div className="w-48 h-48 rounded-3xl overflow-hidden bg-adopt-blue/5 mb-4 border-4 border-white shadow-lg">
                   <img 
-                    src={pet.image} 
+                    src={getImageUrl(pet.image)} 
                     alt={pet.name}
                     className="w-full h-full object-cover"
                     onError={(e) => {

@@ -41,56 +41,56 @@ export const legendaryPets: Pet[] = [
   {
     id: 'giraffe',
     name: 'Giraffe',
-    image: '/pets/giraffe.png',
+    image: 'pets/giraffe.png',
     rarity: 'Legendary',
     origin: 'Safari Egg'
   },
   {
     id: 'owl',
     name: 'Owl',
-    image: '/pets/owl.png',
+    image: 'pets/owl.png',
     rarity: 'Legendary',
     origin: 'Farm Egg'
   },
   {
     id: 'parrot',
     name: 'Parrot',
-    image: '/pets/parrot.png',
+    image: 'pets/parrot.png',
     rarity: 'Legendary',
     origin: 'Jungle Egg'
   },
   {
     id: 'crow',
     name: 'Crow',
-    image: '/pets/crow.png',
+    image: 'pets/crow.png',
     rarity: 'Legendary',
     origin: 'Farm Egg'
   },
   {
     id: 'evil-unicorn',
     name: 'Evil Unicorn',
-    image: '/pets/evil_unicorn.png',
+    image: 'pets/evil_unicorn.png',
     rarity: 'Legendary',
     origin: 'Halloween 2019'
   },
   {
     id: 'arctic-reindeer',
     name: 'Arctic Reindeer',
-    image: '/pets/arctic_reindeer.png',
+    image: 'pets/arctic_reindeer.png',
     rarity: 'Legendary',
     origin: 'Christmas 2019'
   },
   {
     id: 'monkey-king',
     name: 'Monkey King',
-    image: '/pets/monkey_king.png',
+    image: 'pets/monkey_king.png',
     rarity: 'Legendary',
     origin: 'Monkey Fairground'
   },
   {
     id: 'kangaroo',
     name: 'Kangaroo',
-    image: '/pets/kangaroo.png',
+    image: 'pets/kangaroo.png',
     rarity: 'Legendary',
     origin: 'Aussie Egg'
   },

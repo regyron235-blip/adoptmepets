@@ -14,6 +14,7 @@ import NewsSection from './components/NewsSection';
 import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
 import { LanguageProvider, useLanguage } from './components/LanguageContext';
+import { getImageUrl } from './data/utils';
 
 function Hero() {
   const { t } = useLanguage();
@@ -75,7 +76,7 @@ function Hero() {
         >
           <div className="relative z-10 rounded-[3rem] overflow-hidden border-[12px] border-white shadow-2xl rotate-3 scale-110">
             <img 
-              src="/pets/shadow_dragon.png" 
+              src={getImageUrl('pets/shadow_dragon.png')} 
               alt="Adopt Me Pets"
               className="w-full h-full object-cover"
               onError={(e) => {
